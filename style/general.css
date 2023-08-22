@@ -1,0 +1,53 @@
+/* FONT PACIFICO*/
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+
+/*FONT ROBOTO*/
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+/* GLOBALES */
+
+:root {
+  --general-font: "Roboto";
+  --general-fontWeigth: 700;
+  --general-fontSize: 10px;
+  --title-font: "Pacifico", cursive;
+  --paragraphs-color: #fff;
+  --background-grend: #006341;
+  --color-title-mobile: #006341;
+  --background-cake: #fab1a0;
+}
+
+header {
+  background-color: var(--background-cake);
+}
+
+/* TAMAÑO GENERAL DE LOS ICONOS*/
+.iconSize {
+  width: 30px;
+  height: 30px;
+}
+
+/* CENTRAR LOS ITEM DENTRO DE SU CONTENEDOR PADRE*/
+.centrarItems {
+  display: flex;
+  align-items: center;
+}
+
+/* GLOBALES DE LA VERSION MOBILE*/
+.logoMobile {
+  width: 132px;
+  height: 41px;
+}
+
+.title_main,
+.title_small {
+  color: var(--color-title-mobile);
+  font-family: var(--title-font);
+}

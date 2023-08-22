@@ -1,0 +1,80 @@
+@media screen and (min-width: 768px) {
+  /* Agrega aquí tus estilos específicos para tablets */
+
+  .title_section {
+    width: 100%;
+    height: 60vh;
+  }
+  .title_main {
+    display: grid;
+    letter-spacing: 10px;
+    font-size: 7em;
+    padding-inline-start: 0.5em;
+    color: var(--paragraphs-color);
+  }
+  .title_small {
+    position: absolute;
+    top: 5%;
+    left: 17%;
+    font-size: 2.5em;
+    color: var(--paragraphs-color);
+  }
+
+  .nav_toggleAndMenu {
+    /* border: 1px solid; */
+  }
+
+  .logoMobile {
+    z-index: 11;
+  }
+
+  .img_section {
+    width: 100%;
+    height: 40vh;
+    background-color: var(--background-grend);
+    border-top-left-radius: 0px;
+  }
+
+  .description_title {
+    padding: 20px 5rem 20px 5rem;
+  }
+
+  .paragraph_title {
+    font-family: var(--general-font);
+    color: var(--paragraphs-color);
+    font-weight: 500;
+    letter-spacing: 4px;
+    padding: 1rem 0;
+  }
+
+  .thumb_Container {
+    display: flex;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  /* Aquí puedes colocar tus estilos específicos para ese rango de ancho de pantalla */
+  /* Por ejemplo: */
+  .image_thumb {
+    height: 100px;
+    width: 70px;
+
+    transition: transform 0.3s ease;
+  }
+
+  .image_thumb:hover {
+    transform: scale(1.1);
+  }
+
+  .thumb_Container {
+    position: absolute;
+    top: 60%;
+    left: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 10%;
+    height: 63px;
+  }
+}
